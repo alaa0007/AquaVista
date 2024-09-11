@@ -9,7 +9,7 @@ import AquaButton from '../common/buttons/AquaButton'
  * the entire application.
  * @returns {React.ReactElement} The navbar component.
  */
-const Navbar : React.FC = () => {
+const Navbar : React.FC = (): React.ReactElement => {
     return (
         <main className={classes.contianer}>
             <div className={classes.logo}>

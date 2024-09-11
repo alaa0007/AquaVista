@@ -25,6 +25,7 @@ export const routes = (): React.ReactElement => {
             <Route path="/signup" element={<Register />} />
             <Route path="/signin" element={<Login />} />
             <Route path="*" element={<NotFound />} />
+            <Route path="/error" element={<ErrorPages />} />
         </Routes>
     );
 };

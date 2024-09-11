@@ -8,6 +8,8 @@
     align-items: center;
 
     gap: 10rem;
+
+    border-bottom: 1px solid #0008ff;
 }
 
 .logo{
