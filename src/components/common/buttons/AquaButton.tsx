@@ -24,7 +24,7 @@ const AquaButton: React.FC<ButtonProps> = ({ title }) => {
     const icon = icons[title as keyof typeof icons];
 
     return (
-        <Button type="primary" size="middle" icon={icon}>
+        <Button type="primary" size="middle" icon={icon}>dd
             {title}
         </Button>
     );
